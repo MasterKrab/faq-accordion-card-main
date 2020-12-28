@@ -10,6 +10,7 @@ faqButton.forEach((question) => {
                 question.parentNode.classList.remove(`accordion-faq--active`)
             })
             question.parentNode.classList.toggle(`accordion-faq--active`)
+            
         }
     })
 })

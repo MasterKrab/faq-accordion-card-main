@@ -18,6 +18,7 @@
 
     /* Sizes */
     --main-width: 310px;
+    --main-height: 550px;
     --main-border: 1.2rem;
 }
 
@@ -37,7 +38,7 @@ body{
 .main{
     background-color: #fff;
     width: var(--main-width);
-    height: 550px;
+    height: var(--main-height);
     border-radius: var(--main-border);
    display: grid;
    grid-template-columns: 1fr;
@@ -158,6 +159,8 @@ body{
 @media (min-width: 1050px){
     :root{
         --main-width: 900px;
+        --main-height: 530px;
+        --main-border: 2rem;
     }
 
     .main{
