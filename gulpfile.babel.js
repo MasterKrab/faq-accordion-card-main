@@ -26,7 +26,7 @@ gulp.task("htmlmin", () =>{
             collapseWhitespace: true,
             removeComments: true
         }))
-        .pipe(gulp.dest("./public"))
+        .pipe(gulp.dest("./"))
 })
 
 gulp.task("styles", () =>{
