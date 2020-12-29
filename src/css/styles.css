@@ -165,13 +165,13 @@ body{
 @media (min-width: 1050px){
     :root{
         --main-width: 900px;
-        --main-height: 530px;
+        --main-height: 535px;
         --main-border: 2rem;
     }
 
     .main{
         grid-template-columns: 400px 1fr;
-        grid-template-rows: 500px;
+        grid-template-rows: 100%;
         gap: 1.5rem;
         margin-top: 0;
     }
