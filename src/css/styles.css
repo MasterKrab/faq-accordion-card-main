@@ -69,7 +69,7 @@ body{
     display: none;
 }
 .accordion{
-    padding: 0 1rem;
+    padding: 0 1.5rem;
 }
 
 .accordion-faq{
@@ -92,7 +92,7 @@ body{
 
 .accordion-faq__answers{
     color: var(--grey-light);
-    font-size: .7rem;
+    font-size: .75rem;
     display: none;
 }
 
@@ -198,11 +198,11 @@ body{
     .main-image__box{
         display: inline;
         position: absolute;
-        transform: translate(-60%, -160%);
+        transform: translate(-50%, -160%);
     }
     
     .accordion{
-        padding: 3rem 3rem;
+        padding: 3rem 5rem 3rem 3rem;
     }
 
     .accordion__title{
