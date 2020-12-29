@@ -190,8 +190,8 @@ body{
     .main-image{
         background-image: url(../../images/bg-pattern-desktop.svg);
         background-repeat: no-repeat;
-        background-size: 115%;
-        background-position: -80px 50%;
+        background-size: 250%;
+        background-position: 100% 70%;
         position: relative;
     }
 
