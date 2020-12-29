@@ -106,6 +106,7 @@ body{
 
 .accordion-faq__img{
     align-self: center;
+    transition: transform .3s;
 }
 
 .accordion-faq--active > .accordion-faq__answers{
@@ -114,6 +115,11 @@ body{
 
 .accordion-faq--active > .accordion-faq__question  > .accordion-faq__title{
     font-weight: bold;
+}
+
+.accordion-faq--active > .accordion-faq__question  > .accordion-faq__img{
+    transform: rotate(180deg)
+
 }
 
 .footer{
@@ -165,7 +171,7 @@ body{
 
     .main{
         grid-template-columns: 400px 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 500px;
         gap: 1.5rem;
         margin-top: 0;
     }
